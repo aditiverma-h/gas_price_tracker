@@ -1,21 +1,24 @@
 {
   "name": "gas_price_tracker",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start"
-},
- "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
     "ethers": "^6.15.0",
-    "next": "^15.4.2",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "next": "15.4.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
     "zustand": "^5.0.6"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.2",
+    "tailwindcss": "^4"
   }
 }
